@@ -1,0 +1,24 @@
+{
+  "name": "@geut/lerna-travis-chan-demo",
+  "version": "1.0.0",
+  "description": "nothing to see here :shipit:",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "lerna": "lerna",
+    "bootstrap": "lerna bootstrap",
+    "dev": "lerna run build --stream --parallel",
+    "prepublish": "lerna run prepublish"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^1.1.2",
+    "lerna": "^3.4.3"
+  }
+}
