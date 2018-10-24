@@ -1,4 +1,5 @@
 # Playing with chan on monorepos
+[![Build Status](https://travis-ci.com/geut/lerna-travis-demo.svg?branch=master)](https://travis-ci.com/geut/lerna-travis-demo)
 
 > :warning: This is a demo project showcasing: lerna + chan + travis + npm
 
