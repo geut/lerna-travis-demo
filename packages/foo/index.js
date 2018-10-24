@@ -1,1 +1,3 @@
-console.log('geut: foo')
+module.exports = () => {
+  console.log('geut: foo')
+}
