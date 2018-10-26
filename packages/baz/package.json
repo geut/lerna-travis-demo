@@ -4,7 +4,7 @@
   "description": "nothing to see here",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "dependencies": {
     "@geut/foo": "1.0.0"
