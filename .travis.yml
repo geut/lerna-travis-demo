@@ -19,6 +19,4 @@ deploy:
   skip_cleanup: true
   on:
     node: "8"
-    condition: (branch = release) AND (type = pull_request)
-    repo: geut/lerna-travis-demo
     branch: release
