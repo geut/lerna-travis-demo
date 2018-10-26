@@ -8,7 +8,8 @@
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "dev": "lerna run build --stream --parallel",
-    "prepublish": "lerna run prepublish"
+    "prepublish": "lerna run prepublish",
+    "lerna:publish": "lerna publish prerelease from-git --yes --npm-client yarn --preid beta --npm-tag beta"
   },
   "husky": {
     "hooks": {
@@ -20,5 +21,9 @@
   "devDependencies": {
     "husky": "^1.1.2",
     "lerna": "^3.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:geut/lerna-travis-demo.git"
   }
 }

@@ -10,5 +10,8 @@
     "@geut/foo": "1.0.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
 }
