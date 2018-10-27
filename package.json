@@ -9,7 +9,7 @@
     "bootstrap": "lerna bootstrap",
     "dev": "lerna run build --stream --parallel",
     "prepublish": "lerna run prepublish",
-    "lerna:publish": "lerna publish prerelease from-git --yes --npm-client yarn --preid beta --npm-tag beta"
+    "lerna:publish": "lerna publish prerelease --yes --npm-client yarn --preid beta --npm-tag beta"
   },
   "husky": {
     "hooks": {
