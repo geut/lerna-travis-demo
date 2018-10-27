@@ -14,7 +14,7 @@ before_script:
 script:
   - yarn test
 before_deploy:
-  - git checkout -b release
+  - git checkout release
   - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
 deploy:
   provider: script
