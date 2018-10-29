@@ -22,4 +22,4 @@ deploy:
   skip_cleanup: true
   on:
     node: "8"
-    condition: branch = master AND type = pull_request AND $TRAVIS_PULL_REQUEST_BRANCH = release
+    branch: release
