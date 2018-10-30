@@ -69,3 +69,5 @@ packages/clap/bin/
 
 # vscode workspace settings
 .vscode/settings.json
+
+.npmrc
