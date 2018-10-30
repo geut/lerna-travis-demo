@@ -1,13 +1,13 @@
 {
   "name": "@geut/baz",
-  "version": "1.0.0",
+  "version": "0.0.1-beta.0",
   "description": "nothing to see here",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@geut/foo": "1.0.0"
+    "@geut/foo": "^0.0.1-beta.0"
   },
   "author": "",
   "license": "ISC",
