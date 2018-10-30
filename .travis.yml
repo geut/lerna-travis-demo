@@ -14,6 +14,9 @@ before_script:
 script:
   - yarn test
 before_deploy:
+  - git config --global user.email ${GH_EMAIL}
+  - git config --global user.name ${GH_USER}
+  - git remote set-url origin "https://${GITHUB_TOKEN}@github.com/geut/lerna-travis-demo.git" > /dev/null 2>&1
   - git checkout release
   - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
   - git status
