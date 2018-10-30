@@ -8,6 +8,7 @@
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "dev": "lerna run build --stream --parallel",
+    "version": "chan release ${npm_package_version} && git add CHANGELOG.md",
     "prepublish": "lerna run prepublish",
     "lerna:publish": "lerna publish prerelease --yes --npm-client yarn --preid beta --npm-tag beta"
   },
