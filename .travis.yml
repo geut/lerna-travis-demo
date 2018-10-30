@@ -14,8 +14,11 @@ before_script:
 script:
   - yarn test
 before_deploy:
+  - git checkout release
   - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
   - git status
+  - pwd
+  - ls -l
 deploy:
   provider: script
   script: "yarn run lerna:publish"
