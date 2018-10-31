@@ -24,10 +24,10 @@ before_deploy:
   - ls -l
 deploy:
   provider: script
-  script:
-    - yarn run lerna:publish
-    - cat CHANGELOG.md
+  script: "yarn run lerna:publish"
   skip_cleanup: true
   on:
     node: "8"
     branch: release
+after_deploy:
+  - cat CHANGELOG.md
