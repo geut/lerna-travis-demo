@@ -8,7 +8,7 @@
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "dev": "lerna run build --stream --parallel",
-    "postversion": "chan release --group-changes $(node -p -e \"require('./lerna.json').version\") && git add CHANGELOG.md && git commit -m \"Update: changelog\" && cat CHANGELOG.md && git push origin release",
+    "postversion": "chan release --group-changes $(node -p -e \"require('./lerna.json').version\") && git add CHANGELOG.md && git commit -m \"Update: changelog\"",
     "prepublish": "lerna run prepublish",
     "lerna:publish": "lerna publish prerelease --yes --npm-client yarn --preid beta --npm-tag beta"
   },
