@@ -6,9 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.0.1-beta.3] - 2018-10-31 [YANKED]
+
 ## 0.0.1-beta.2 - 2018-10-31
 ### Added
 - foo
   - new foo message
 
-[unreleased]: https://github.com/geut/lerna-travis-demo/compare/v0.0.1-beta.2...HEAD
+[unreleased]: https://github.com/geut/lerna-travis-demo/compare/v0.0.1-beta.3...HEAD
+[0.0.1-beta.3]: https://github.com/geut/lerna-travis-demo/compare/v0.0.1-beta.2...v0.0.1-beta.3
