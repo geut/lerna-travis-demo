@@ -8,7 +8,7 @@
     "lerna": "lerna",
     "bootstrap": "lerna bootstrap",
     "dev": "lerna run build --stream --parallel",
-    "postversion": "echo ROOT VERSION $(node -p -e 'require('./lerna.json').version') && exit 1",
+    "postversion": "echo ROOT VERSION $(node -p -e \"require('./lerna.json').version\") && exit 1",
     "prepublish": "lerna run prepublish",
     "lerna:publish": "lerna publish prerelease --yes --npm-client yarn --preid beta --npm-tag beta"
   },
