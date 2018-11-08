@@ -1,6 +1,6 @@
 {
   "name": "@geut/foo",
-  "version": "0.0.1-beta.3",
+  "version": "0.0.1-beta.4",
   "description": "nothing to see here.",
   "main": "index.js",
   "scripts": {
