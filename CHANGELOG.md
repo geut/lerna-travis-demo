@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 - touch: this is just a test. Trying something else. :eyes:
+- touch2: this is just a test. Trying something else. :eyes:
 
 ## [0.0.1-beta.4] - 2018-11-08
 ### Added
